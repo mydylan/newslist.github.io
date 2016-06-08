@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>suitsupply</title>
+</head>
+<body>
+	<header>
+		<h1>NEWS</h1>
+		<div class="control-wrapper">
+			<div class="controls">
+				<div class="search-input">
+					<input type="text" placeholder="SEARCH">
+				</div>
+				<div class="filter-button">
+					<p>FILTERS</p>
+					<div class="caret"></div>
+				</div>
+			</div>
+			<div class="filters-wrapper">
+				<div class="filters">
+					<div class="checkbox">
+						<input id="box" type="checkbox">
+						<label for="box">Without related news</label>
+					</div>
+					<div class="filter-form">
+						<div class="filter-from">
+							<p>FROM</p>
+							<input id="from-date" type="date">
+						</div>
+						<div class="separator"></div>
+						<div class="filter-to">
+							<input id="to-date" type="date">
+							<p>TO</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div id="list-container"></div>
+		<div id="item-container">
+			<div class="item-news"></div>
+			<div class="close"></div>
+		</div>
+	</main>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
